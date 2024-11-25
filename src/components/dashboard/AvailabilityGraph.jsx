@@ -18,13 +18,13 @@ const AvailabilityGraph = () => {
         Property Availability
       </h1>
 
-      <PieChart width={400} height={400}>
+      <PieChart width={300} height={300}>
         <Pie
           data={data}
-          cx={200}
-          cy={200}
-          innerRadius={80}
-          outerRadius={120}
+          cx={150}
+          cy={150}
+          innerRadius={40}
+          outerRadius={70}
           fill="#8884d8"
           dataKey="value"
           label={({ name, percent }) => `${name}: ${(percent * 100).toFixed(0)}%`}
