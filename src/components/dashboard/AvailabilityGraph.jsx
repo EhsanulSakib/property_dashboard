@@ -13,7 +13,7 @@ const AvailabilityGraph = () => {
   const COLORS = ['#81D4FA', '#1565C0']; // Red for Rented, Green for Available
 
   return (
-    <div className="flex flex-col items-center justify-center py-4 h-full bg-primary/5 rounded-md">
+    <div className="flex flex-col items-center justify-center py-4 bg-primary/5 rounded-md">
       <h1 className="text-2xl font-bold">
         Property Availability
       </h1>

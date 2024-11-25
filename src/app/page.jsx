@@ -17,10 +17,12 @@ export default function Home() {
       {/* middle section */}
 
       {/* left section */}
-      <section className="w-full flex flex-col col-span-2 gap-y-8 mb-8 md:mb-12 lg:mb-0">
+      <section className="w-full flex flex-col col-span-2 gap-y-8 mb-8 md:mb-12 lg:mb-0 max-h-screen">
         <Info />
-        <AvailabilityGraph />
-        <RevenueGraph />
+        <div className="h-full overflow-y-scroll scroll-container">
+          <AvailabilityGraph />
+          <RevenueGraph />
+        </div>
       </section>
 
       {/* right section */}

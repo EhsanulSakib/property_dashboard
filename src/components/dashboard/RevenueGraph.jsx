@@ -5,7 +5,7 @@ import { revenueData } from '../data/revenue.data';
 
 const RevenueGraph = () => {
   return (
-    <div className="flex flex-col items-center justify-center py-4 h-full bg-primary/5 rounded-md">
+    <div className="flex flex-col items-center justify-center py-4 bg-primary/5 rounded-md">
       <h1 className="text-2xl font-bold mb-4 text-primary">
         Monthly Revenue
       </h1>

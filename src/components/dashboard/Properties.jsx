@@ -45,9 +45,9 @@ const Properties = () => {
   }, []);
 
   return (
-    <section className='w-full flex flex-col md:flex-row gap-3 md:max-h-[80vh] overflow-hidden overflow-y-auto scroll-container'>
+    <section className='w-full flex flex-col md:flex-row gap-3 h-screen overflow-hidden overflow-y-auto scroll-container'>
       {/* PropertyCards */}
-      <section className='w-full flex flex-col gap-3 max-h-[80vh] overflow-hidden overflow-y-auto scroll-container'>
+      <section className='w-full flex flex-col gap-3 overflow-hidden overflow-y-auto scroll-container h-screen'>
         {/* filter section */}
         <section className='flex gap-4 items-center justify-end mr-1'>
           <select value={filter} onChange={(e) => handleFilterChange(e, 'filter')} className='custom-select'>
