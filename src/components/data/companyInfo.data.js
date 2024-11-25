@@ -12,7 +12,7 @@ export const companyInfo = [
   {
     heading: "Earnings",
     icon: '/assets/icons/earning.png',
-    value: '$40,489.88'
+    value: "4,50,00,300 BDT"
   },
   {
     heading: "Reviews",

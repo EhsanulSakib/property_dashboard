@@ -2,6 +2,7 @@ import { ThemeProvider } from "@/components/provider/ThemeWrapper";
 import "./globals.css";
 import { Onest } from "next/font/google";
 import Navbar from "@/components/navbar/Navbar";
+import Footer from "@/components/footer/Footer";
 
 const onest = Onest({
   subsets: ["latin"],
@@ -25,6 +26,9 @@ export default function RootLayout({ children }) {
           <main>
             {children}
           </main>
+          <footer>
+            <Footer />
+          </footer>
         </body>
       </ThemeProvider>
     </html >
